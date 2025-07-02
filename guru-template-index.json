@@ -1,41 +1,6 @@
 {
   "guruTemplates": [
     {
-      "templateTitle": "[1/3 - anomaly detection] [1/2 - KNN classification] Batch upload dataset to Qdrant (crops dataset)",
-      "summary": "Workflow connecting manual Trigger, google Cloud Storage, set",
-      "relativePath": "AI_Research_RAG_and_Data_Analysis/Vector Database as a Big Data Analysis Tool for AI Agents [1_3 anomaly][1_2 KNN].txt"
-    },
-    {
-      "templateTitle": "[2/2] KNN classifier (lands dataset)",
-      "summary": "Workflow connecting http Request, code, set",
-      "relativePath": "AI_Research_RAG_and_Data_Analysis/Vector Database as a Big Data Analysis Tool for AI Agents [2_2 KNN] (1).txt"
-    },
-    {
-      "templateTitle": "[2/2] KNN classifier (lands dataset)",
-      "summary": "Workflow connecting http Request, code, set",
-      "relativePath": "AI_Research_RAG_and_Data_Analysis/Vector Database as a Big Data Analysis Tool for AI Agents [2_2 KNN].txt"
-    },
-    {
-      "templateTitle": "[2/3] Set up medoids (2 types) for anomaly detection (crops dataset)",
-      "summary": "Workflow connecting manual Trigger, http Request, code",
-      "relativePath": "AI_Research_RAG_and_Data_Analysis/Vector Database as a Big Data Analysis Tool for AI Agents [2_3 - anomaly].txt"
-    },
-    {
-      "templateTitle": "[3/3] Anomaly detection tool (crops dataset)",
-      "summary": "Workflow connecting sticky Note, http Request, code",
-      "relativePath": "AI_Research_RAG_and_Data_Analysis/Automated Hugging Face Paper Summary Fetching & Categorization Workflow.txt"
-    },
-    {
-      "templateTitle": "[3/3] Anomaly detection tool (crops dataset)",
-      "summary": "Workflow connecting sticky Note, http Request, code",
-      "relativePath": "AI_Research_RAG_and_Data_Analysis/Vector Database as a Big Data Analysis Tool for AI Agents [3_3 - anomaly].txt"
-    },
-    {
-      "templateTitle": "[AI/LangChain] Output Parser 4",
-      "summary": "Workflow connecting manual Trigger, set, langchain.chain Llm",
-      "relativePath": "OpenAI_and_LLMs/Force AI to use a specific output format.txt"
-    },
-    {
       "templateTitle": "⚡AI Powered YouTube Video Summarization & Analysis",
       "summary": "Workflow connecting webhook, n8n-nodes-youtube-transcription.youtube Transcripter, split Out",
       "relativePath": "OpenAI_and_LLMs/⚡AI-Powered YouTube Video Summarization & Analysis.txt"
@@ -49,6 +14,506 @@
       "templateTitle": "🐋DeepSeek V3 Chat & R1 Reasoning Quick Start",
       "summary": "Workflow connecting langchain.chat Trigger, langchain.agent, langchain.lm Chat Open Ai",
       "relativePath": "OpenAI_and_LLMs/🐋DeepSeek V3 Chat & R1 Reasoning Quick Start.txt"
+    },
+    {
+      "templateTitle": "📈 Receive Daily Market News From FT.Com To Your Microsoft Outlook Inbox",
+      "summary": "Workflow connecting html, http Request, schedule Trigger",
+      "relativePath": "Gmail_and_Email_Automation/📈 Receive Daily Market News from FT.com to your Microsoft outlook inbox.txt"
+    },
+    {
+      "templateTitle": "🔥📈🤖 AI Agent for n8n Creators Leaderboard - Find Popular Workflows",
+      "summary": "Workflow connecting http Request, set, limit",
+      "relativePath": "OpenAI_and_LLMs/🔥📈🤖 AI Agent for n8n Creators Leaderboard - Find Popular Workflows.txt"
+    },
+    {
+      "templateTitle": "🗨️Ollama Chat",
+      "summary": "Workflow connecting langchain.chat Trigger, langchain.chain Llm, langchain.lm Ollama",
+      "relativePath": "OpenAI_and_LLMs/🔐🦙🤖 Private & Local Ollama Self-Hosted AI Assistant.txt"
+    },
+    {
+      "templateTitle": "🤖 Telegram Messaging Agent for Text/Audio/Images",
+      "summary": "Workflow connecting if, telegram, sticky Note",
+      "relativePath": "Telegram/🤖 Telegram Messaging Agent for Text_Audio_Images.txt"
+    },
+    {
+      "templateTitle": "🤖🧑‍💻 AI Agent for Top n8n Creators Leaderboard Reporting",
+      "summary": "Workflow connecting http Request, set, aggregate",
+      "relativePath": "OpenAI_and_LLMs/🤖🧑_💻 AI Agent for Top n8n Creators Leaderboard Reporting.txt"
+    },
+    {
+      "templateTitle": "🤖🧠 AI Agent Chatbot + LONG TERM Memory + Note Storage + Telegram",
+      "summary": "Workflow connecting langchain.chat Trigger, sticky Note, langchain.lm Chat Open Ai",
+      "relativePath": "Telegram/🤖🧠 AI Agent Chatbot + LONG TERM Memory + Note Storage + Telegram.txt"
+    },
+    {
+      "templateTitle": "Actioning Your Meeting Next Steps Using Transcripts And AI",
+      "summary": "Workflow connecting langchain.lm Chat Open Ai, http Request, google Drive",
+      "relativePath": "OpenAI_and_LLMs/Actioning Your Meeting Next Steps using Transcripts and AI.txt"
+    },
+    {
+      "templateTitle": "Add Positive Feedback Messages To A Table In Notion",
+      "summary": "Workflow connecting typeform Trigger, google Cloud Natural Language, if",
+      "relativePath": "Notion/Add positive feedback messages to a table in Notion.txt"
+    },
+    {
+      "templateTitle": "Advanced AI Demo (Presented At AI Developers #14 Meetup)",
+      "summary": "Workflow connecting slack, sticky Note, code",
+      "relativePath": "OpenAI_and_LLMs/Advanced AI Demo (Presented at AI Developers #14 meetup).txt"
+    },
+    {
+      "templateTitle": "Agent with custom HTTP Request",
+      "summary": "Workflow connecting langchain.manual Chat Trigger, langchain.lm Chat Open Ai, http Request",
+      "relativePath": "OpenAI_and_LLMs/AI agent that can scrape webpages.txt"
+    },
+    {
+      "templateTitle": "Agentic Telegram AI bot with LangChain nodes and new tools",
+      "summary": "Workflow connecting langchain.lm Chat Open Ai, langchain.memory Buffer Window, telegram Trigger",
+      "relativePath": "Telegram/Agentic Telegram AI bot with with LangChain nodes and new tools.txt"
+    },
+    {
+      "templateTitle": "AI Agent : Google calendar assistant using OpenAI",
+      "summary": "Workflow connecting langchain.chat Trigger, langchain.lm Chat Open Ai, langchain.memory Buffer Window",
+      "relativePath": "OpenAI_and_LLMs/AI Agent _ Google calendar assistant using OpenAI.txt"
+    },
+    {
+      "templateTitle": "AI Agent Chat",
+      "summary": "Workflow connecting langchain.lm Chat Open Ai, langchain.memory Buffer Window, langchain.tool Serp Api",
+      "relativePath": "OpenAI_and_LLMs/AI agent chat.txt"
+    },
+    {
+      "templateTitle": "AI Agent For Project Management And Meetings With Airtable And Fireflies",
+      "summary": "Workflow connecting langchain.agent, langchain.lm Chat Open Ai, langchain.tool Workflow",
+      "relativePath": "Airtable/AI Agent for project management and meetings with Airtable and Fireflies.txt"
+    },
+    {
+      "templateTitle": "AI Agent For Realtime Insights On Meetings",
+      "summary": "Workflow connecting langchain.open Ai, postgres, postgres Tool",
+      "relativePath": "OpenAI_and_LLMs/AI Agent for realtime insights on meetings.txt"
+    },
+    {
+      "templateTitle": "AI Agent To Chat With Files In Supabase Storage",
+      "summary": "Workflow connecting http Request, langchain.document Default Data Loader, langchain.text Splitter Recursive Character Text Splitter",
+      "relativePath": "OpenAI_and_LLMs/AI Agent To Chat With Files In Supabase Storage.txt"
+    },
+    {
+      "templateTitle": "AI Agent To Chat With Supabase PostgreSQL DB",
+      "summary": "Workflow connecting sticky Note, langchain.chat Trigger, langchain.lm Chat Open Ai",
+      "relativePath": "OpenAI_and_LLMs/AI Agent to chat with Supabase_PostgreSQL DB.txt"
+    },
+    {
+      "templateTitle": "AI Agent to chat with you Search Console Data, using OpenAI and Postgres",
+      "summary": "Workflow connecting langchain.memory Postgres Chat, langchain.lm Chat Open Ai, set",
+      "relativePath": "OpenAI_and_LLMs/AI Agent to chat with you Search Console Data, using OpenAI and Postgres.txt"
+    },
+    {
+      "templateTitle": "AI Agent With Ollama For Current Weather And Wiki",
+      "summary": "Workflow connecting sticky Note, langchain.manual Chat Trigger, langchain.tool Wikipedia",
+      "relativePath": "OpenAI_and_LLMs/AI Agent with Ollama for current weather and wiki.txt"
+    },
+    {
+      "templateTitle": "AI agent: expense tracker in Google Sheets and n8n chat",
+      "summary": "Workflow connecting langchain.agent, langchain.chat Trigger, execute Workflow Trigger",
+      "relativePath": "Google_Drive_and_Google_Sheets/Simple Expense Tracker with n8n Chat, AI Agent and Google Sheets.txt"
+    },
+    {
+      "templateTitle": "AI Chat With Any Data Source (Using The N8n Workflow Tool)",
+      "summary": "Workflow connecting langchain.manual Chat Trigger, execute Workflow Trigger, hacker News",
+      "relativePath": "OpenAI_and_LLMs/AI chat with any data source (using the n8n workflow tool).txt"
+    },
+    {
+      "templateTitle": "AI Chatbot That Can Search The Web",
+      "summary": "Workflow connecting sticky Note, langchain.manual Chat Trigger, langchain.lm Chat Open Ai",
+      "relativePath": "OpenAI_and_LLMs/AI chatbot that can search the web.txt"
+    },
+    {
+      "templateTitle": "AI Customer Feedback Sentiment Analysis",
+      "summary": "Workflow connecting sticky Note, google Sheets, merge",
+      "relativePath": "OpenAI_and_LLMs/AI Customer feedback sentiment analysis.txt"
+    },
+    {
+      "templateTitle": "AI CV Screening Workflow",
+      "summary": "Workflow connecting langchain.lm Chat Google Gemini, gmail, langchain.chain Llm",
+      "relativePath": "Google_Drive_and_Google_Sheets/Screen Applicants With AI, notify HR and save them in a Google Sheet.txt"
+    },
+    {
+      "templateTitle": "AI Data Extraction With Dynamic Prompts And Airtable",
+      "summary": "Workflow connecting switch, code, http Request",
+      "relativePath": "OpenAI_and_LLMs/AI Data Extraction with Dynamic Prompts and Airtable.txt"
+    },
+    {
+      "templateTitle": "AI Data Extraction With Dynamic Prompts And Baserow",
+      "summary": "Workflow connecting webhook, switch, http Request",
+      "relativePath": "OpenAI_and_LLMs/AI Data Extraction with Dynamic Prompts and Baserow.txt"
+    },
+    {
+      "templateTitle": "AI Email processing autoresponder with approval (Yes/No)",
+      "summary": "Workflow connecting email Read Imap, markdown, langchain.lm Chat Open Ai",
+      "relativePath": "Gmail_and_Email_Automation/AI-powered email processing autoresponder and response approval (Yes_No).txt"
+    },
+    {
+      "templateTitle": "AI Fitness Coach Strava Data Analysis And Personalized Training Insights",
+      "summary": "Workflow connecting strava Trigger, langchain.lm Chat Google Gemini, gmail",
+      "relativePath": "OpenAI_and_LLMs/AI Fitness Coach Strava Data Analysis and Personalized Training Insights.txt"
+    },
+    {
+      "templateTitle": "AI Logo Sheet Extractor to Airtable",
+      "summary": "Workflow connecting form Trigger, langchain.agent, set",
+      "relativePath": "Google_Drive_and_Google_Sheets/Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable.txt"
+    },
+    {
+      "templateTitle": "AI Powered Candidate Shortlisting Automation For ERPNext",
+      "summary": "Workflow connecting sticky Note, code, set",
+      "relativePath": "OpenAI_and_LLMs/AI-Powered Candidate Shortlisting Automation for ERPNext.txt"
+    },
+    {
+      "templateTitle": "AI Powered Children S Arabic Storytelling On Telegram",
+      "summary": "Workflow connecting langchain.lm Chat Open Ai, schedule Trigger, langchain.text Splitter Recursive Character Text Splitter",
+      "relativePath": "Telegram/AI-Powered Children_s Arabic Storytelling on Telegram.txt"
+    },
+    {
+      "templateTitle": "AI Powered Children S English Storytelling On Telegram With OpenAI",
+      "summary": "Workflow connecting langchain.lm Chat Open Ai, schedule Trigger, sticky Note",
+      "relativePath": "Telegram/AI-Powered Children_s English Storytelling on Telegram with OpenAI.txt"
+    },
+    {
+      "templateTitle": "AI Powered Web Scraping With Jina, Google Sheets And OpenAI   The EASY Way",
+      "summary": "Workflow connecting manual Trigger, split Out, google Sheets",
+      "relativePath": "OpenAI_and_LLMs/AI Powered Web Scraping with Jina, Google Sheets and OpenAI _ the EASY way.txt"
+    },
+    {
+      "templateTitle": "AI Powered WooCommerce Support Agent",
+      "summary": "Workflow connecting sticky Note, set, if",
+      "relativePath": "OpenAI_and_LLMs/AI-powered WooCommerce Support-Agent.txt"
+    },
+    {
+      "templateTitle": "AI Social Media Caption Creator",
+      "summary": "Workflow connecting langchain.agent, langchain.lm Chat Open Ai, langchain.memory Buffer Window",
+      "relativePath": "OpenAI_and_LLMs/AI Social Media Caption Creator creates social media post captions in Airtable.txt"
+    },
+    {
+      "templateTitle": "AI Voice Chat using Webhook, Memory Manager, OpenAI, Google Gemini & ElevenLabs",
+      "summary": "Workflow connecting langchain.memory Manager, sticky Note, aggregate",
+      "relativePath": "OpenAI_and_LLMs/AI Voice Chat using Webhook, Memory Manager, OpenAI, Google Gemini & ElevenLabs.txt"
+    },
+    {
+      "templateTitle": "AI Web Researcher For Sales",
+      "summary": "Workflow connecting manual Trigger, set, langchain.lm Chat Open Ai",
+      "relativePath": "OpenAI_and_LLMs/AI web researcher for sales.txt"
+    },
+    {
+      "templateTitle": "AI-Generated Summary Block for WordPress Posts - with OpenAI, WordPress, Google Sheets & Slack",
+      "summary": "Workflow connecting manual Trigger, langchain.text Classifier, langchain.lm Chat Open Ai",
+      "relativePath": "OpenAI_and_LLMs/AI-Generated Summary Block for WordPress Posts.txt"
+    },
+    {
+      "templateTitle": "Analyze & Sort Suspicious Email Contents With ChatGPT",
+      "summary": "Workflow connecting gmail Trigger, microsoft Outlook Trigger, http Request",
+      "relativePath": "Gmail_and_Email_Automation/Analyze & Sort Suspicious Email Contents with ChatGPT.txt"
+    },
+    {
+      "templateTitle": "Analyze Feedback Using AWS Comprehend And Send It To A Mattermost Channel",
+      "summary": "Workflow connecting mattermost, no Op, if",
+      "relativePath": "Other_Integrations_and_Use_Cases/Analyze feedback using AWS Comprehend and send it to a Mattermost channel.txt"
+    },
+    {
+      "templateTitle": "Analyze Screenshots with AI",
+      "summary": "Workflow connecting sticky Note, set, http Request",
+      "relativePath": "Other_Integrations_and_Use_Cases/Automate Screenshots with URLbox & Analyze them with AI.txt"
+    },
+    {
+      "templateTitle": "Analyze Suspicious Email Contents With ChatGPT Vision",
+      "summary": "Workflow connecting gmail Trigger, microsoft Outlook Trigger, http Request",
+      "relativePath": "Gmail_and_Email_Automation/Analyze Suspicious Email Contents with ChatGPT Vision.txt"
+    },
+    {
+      "templateTitle": "Analyze the sentiment of feedback and send a message on Mattermost",
+      "summary": "Workflow connecting typeform Trigger, google Cloud Natural Language, if",
+      "relativePath": "Other_Integrations_and_Use_Cases/Analyze feedback and send a message on Mattermost.txt"
+    },
+    {
+      "templateTitle": "Angie, Personal AI Assistant With Telegram Voice And Text",
+      "summary": "Workflow connecting google Calendar Tool, langchain.memory Buffer Window, gmail Tool",
+      "relativePath": "Telegram/Angie, Personal AI Assistant with Telegram Voice and Text.txt"
+    },
+    {
+      "templateTitle": "API Schema Extractor",
+      "summary": "Workflow connecting manual Trigger, http Request, split Out",
+      "relativePath": "Other_Integrations_and_Use_Cases/API Schema Extractor.txt"
+    },
+    {
+      "templateTitle": "Ask a human",
+      "summary": "Workflow connecting langchain.memory Buffer Window, langchain.tool Workflow, execute Workflow Trigger",
+      "relativePath": "OpenAI_and_LLMs/Ask a human for help when the AI doesn_t know the answer.txt"
+    },
+    {
+      "templateTitle": "Ask Questions About A PDF Using AI",
+      "summary": "Workflow connecting google Drive, langchain.text Splitter Recursive Character Text Splitter, langchain.embeddings Open Ai",
+      "relativePath": "PDF_and_Document_Processing/Ask questions about a PDF using AI.txt"
+    },
+    {
+      "templateTitle": "Auto Categorise Outlook Emails With AI",
+      "summary": "Workflow connecting manual Trigger, sticky Note, langchain.lm Chat Ollama",
+      "relativePath": "Gmail_and_Email_Automation/Auto Categorise Outlook Emails with AI.txt"
+    },
+    {
+      "templateTitle": "Auto categorize wordpress template",
+      "summary": "Workflow connecting manual Trigger, wordpress, sticky Note",
+      "relativePath": "WordPress/Auto-Categorize blog posts in wordpress using A.I..txt"
+    },
+    {
+      "templateTitle": "Auto Label Incoming Gmail Messages With AI Nodes",
+      "summary": "Workflow connecting gmail Trigger, gmail, set",
+      "relativePath": "Gmail_and_Email_Automation/Auto-label incoming Gmail messages with AI nodes.txt"
+    },
+    {
+      "templateTitle": "Auto-Tag Blog Posts in WordPress with AI",
+      "summary": "Workflow connecting langchain.lm Chat Open Ai, langchain.output Parser Autofixing, langchain.output Parser Structured",
+      "relativePath": "WordPress/Auto-Tag Blog Posts in WordPress with AI.txt"
+    },
+    {
+      "templateTitle": "Automate Blog Creation In Brand Voice With AI",
+      "summary": "Workflow connecting manual Trigger, langchain.lm Chat Open Ai, langchain.information Extractor",
+      "relativePath": "WordPress/Automate Blog Creation in Brand Voice with AI.txt"
+    },
+    {
+      "templateTitle": "Automate Content Generator for WordPress with DeepSeek R1",
+      "summary": "Workflow connecting manual Trigger, google Sheets, set",
+      "relativePath": "WordPress/Automate Content Generator for WordPress with DeepSeek R1.txt"
+    },
+    {
+      "templateTitle": "Automate Customer Support Issue Resolution Using AI Text Classifier",
+      "summary": "Workflow connecting langchain.lm Chat Open Ai, schedule Trigger, jira",
+      "relativePath": "OpenAI_and_LLMs/Automate Customer Support Issue Resolution using AI Text Classifier.txt"
+    },
+    {
+      "templateTitle": "Automate Image Validation Tasks Using AI Vision",
+      "summary": "Workflow connecting manual Trigger, langchain.output Parser Structured, set",
+      "relativePath": "OpenAI_and_LLMs/Automate Image Validation Tasks using AI Vision.txt"
+    },
+    {
+      "templateTitle": "Automate LinkedIn Posts with AI",
+      "summary": "Workflow connecting schedule Trigger, sticky Note, notion",
+      "relativePath": "Notion/Automate LinkedIn Outreach with Notion and OpenAI.txt"
+    },
+    {
+      "templateTitle": "Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API",
+      "summary": "Workflow connecting langchain.lm Chat Open Ai, airtable Tool, schedule Trigger",
+      "relativePath": "Other_Integrations_and_Use_Cases/Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API.txt"
+    },
+    {
+      "templateTitle": "Automate Sales Meeting Prep With AI & APIFY Sent To WhatsApp",
+      "summary": "Workflow connecting gmail, set, google Calendar",
+      "relativePath": "WhatsApp/Automate Sales Meeting Prep with AI & APIFY Sent To WhatsApp.txt"
+    },
+    {
+      "templateTitle": "Automate SIEM Alert Enrichment With MITRE ATT&CK, Qdrant & Zendesk In N8n",
+      "summary": "Workflow connecting langchain.chat Trigger, langchain.agent, langchain.lm Chat Open Ai",
+      "relativePath": "Other_Integrations_and_Use_Cases/Automate SIEM Alert Enrichment with MITRE ATT&CK, Qdrant & Zendesk in n8n.txt"
+    },
+    {
+      "templateTitle": "Automate Testimonials In Strapi With N8n",
+      "summary": "Workflow connecting set, strapi, interval",
+      "relativePath": "Other_Integrations_and_Use_Cases/Automate testimonials in Strapi with n8n.txt"
+    },
+    {
+      "templateTitle": "Automated AI Image Analysis And Response Via Telegram",
+      "summary": "Workflow connecting telegram Trigger, telegram, sticky Note",
+      "relativePath": "Telegram/Automated AI image analysis and response via Telegram.txt"
+    },
+    {
+      "templateTitle": "Autonomous AI Crawler",
+      "summary": "Workflow connecting langchain.tool Workflow, langchain.lm Chat Open Ai, langchain.output Parser Structured",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Autonomous AI crawler.txt"
+    },
+    {
+      "templateTitle": "BambooHR AI-Powered Company Policies and Benefits Chatbot",
+      "summary": "Workflow connecting manual Trigger, langchain.document Default Data Loader, langchain.embeddings Open Ai",
+      "relativePath": "HR_and_Recruitment/BambooHR AI-Powered Company Policies and Benefits Chatbot.txt"
+    },
+    {
+      "templateTitle": "Basic Automatic Gmail Email Labelling With OpenAI And Gmail API",
+      "summary": "Workflow connecting gmail Trigger, langchain.lm Chat Open Ai, gmail Tool",
+      "relativePath": "Gmail_and_Email_Automation/Basic Automatic Gmail Email Labelling with OpenAI and Gmail API.txt"
+    },
+    {
+      "templateTitle": "Bitrix24 Chatbot Application Workflow example with Webhook Integration",
+      "summary": "Workflow connecting webhook, set, if",
+      "relativePath": "Other_Integrations_and_Use_Cases/Bitrix24 Chatbot Application Workflow example with Webhook Integration.txt"
+    },
+    {
+      "templateTitle": "Blog Automation TEMPLATE",
+      "summary": "Workflow connecting set, schedule Trigger, manual Trigger",
+      "relativePath": "Google_Drive_and_Google_Sheets/Author and Publish Blog Posts From Google Sheets.txt"
+    },
+    {
+      "templateTitle": "Breakdown Documents Into Study Notes Using Templating MistralAI And Qdrant",
+      "summary": "Workflow connecting local File Trigger, langchain.document Default Data Loader, langchain.text Splitter Recursive Character Text Splitter",
+      "relativePath": "PDF_and_Document_Processing/Breakdown Documents into Study Notes using Templating MistralAI and Qdrant.txt"
+    },
+    {
+      "templateTitle": "Build A Financial Documents Assistant Using Qdrant And Mistral.Ai",
+      "summary": "Workflow connecting local File Trigger, manual Trigger, set",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Build a Financial Documents Assistant using Qdrant and Mistral.ai.txt"
+    },
+    {
+      "templateTitle": "Build A Tax Code Assistant With Qdrant, Mistral.Ai And OpenAI",
+      "summary": "Workflow connecting manual Trigger, langchain.embeddings Mistral Cloud, langchain.document Default Data Loader",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI.txt"
+    },
+    {
+      "templateTitle": "Build an OpenAI Assistant with Google Drive Integration",
+      "summary": "Workflow connecting manual Trigger, google Drive, langchain.chat Trigger",
+      "relativePath": "Google_Drive_and_Google_Sheets/Build an OpenAI Assistant with Google Drive Integration.txt"
+    },
+    {
+      "templateTitle": "Build Your Own Image Search Using AI Object Detection, CDN And ElasticSearchBuild Your Own Image Search Using AI Object Detection, CDN And ElasticSearch",
+      "summary": "Workflow connecting manual Trigger, http Request, split Out",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Build Your Own Image Search Using AI Object Detection, CDN and ElasticSearchBuild Your Own Image Search Using AI Object Detection, CDN and ElasticSearch.txt"
+    },
+    {
+      "templateTitle": "Building RAG Chatbot for Movie Recommendations with Qdrant and Open AI",
+      "summary": "Workflow connecting manual Trigger, github, extract From File",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Building RAG Chatbot for Movie Recommendations with Qdrant and Open AI.txt"
+    },
+    {
+      "templateTitle": "Building Your First WhatsApp Chatbot",
+      "summary": "Workflow connecting whats App Trigger, langchain.lm Chat Open Ai, langchain.memory Buffer Window",
+      "relativePath": "WhatsApp/Building Your First WhatsApp Chatbot.txt"
+    },
+    {
+      "templateTitle": "Building Your First WhatsApp Chatbot (1)",
+      "summary": "Workflow connecting whats App Trigger, langchain.lm Chat Open Ai, langchain.memory Buffer Window",
+      "relativePath": "WhatsApp/Building Your First WhatsApp Chatbot (1).txt"
+    },
+    {
+      "templateTitle": "Business WhatsApp AI RAG Chatbot",
+      "summary": "Workflow connecting respond To Webhook, langchain.agent, sticky Note",
+      "relativePath": "WhatsApp/Complete business WhatsApp AI-Powered RAG Chatbot using OpenAI.txt"
+    },
+    {
+      "templateTitle": "Calendar_scheduling",
+      "summary": "Workflow connecting gmail Trigger, langchain.lm Chat Open Ai, langchain.tool Workflow",
+      "relativePath": "OpenAI_and_LLMs/Suggest meeting slots using AI.txt"
+    },
+    {
+      "templateTitle": "Chat with GitHub OpenAPI Specification using RAG (Pinecone and OpenAI)",
+      "summary": "Workflow connecting manual Trigger, http Request, langchain.vector Store Pinecone",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Chat with GitHub API Documentation_ RAG-Powered Chatbot with Pinecone & OpenAI.txt"
+    },
+    {
+      "templateTitle": "Chat with Google Sheet",
+      "summary": "Workflow connecting execute Workflow Trigger, sticky Note, google Sheets",
+      "relativePath": "Google_Drive_and_Google_Sheets/Chat with a Google Sheet using AI.txt"
+    },
+    {
+      "templateTitle": "Chat with local LLMs using n8n and Ollama",
+      "summary": "Workflow connecting langchain.chat Trigger, langchain.lm Chat Ollama, sticky Note",
+      "relativePath": "OpenAI_and_LLMs/Chat with local LLMs using n8n and Ollama.txt"
+    },
+    {
+      "templateTitle": "Chat With OpenAI Assistant (By Adding A Memory)",
+      "summary": "Workflow connecting langchain.open Ai Assistant, langchain.tool Calculator, langchain.memory Manager",
+      "relativePath": "OpenAI_and_LLMs/Chat with OpenAI Assistant (by adding a memory).txt"
+    },
+    {
+      "templateTitle": "Chat With OpenAIs GPT Via A Simple Telegram Bot",
+      "summary": "Workflow connecting telegram Trigger, langchain.lm Chat Open Ai, langchain.agent",
+      "relativePath": "Telegram/Chat with OpenAIs GPT via a simple Telegram Bot.txt"
+    },
+    {
+      "templateTitle": "Chat With PDF Docs Using AI (Quoting Sources)",
+      "summary": "Workflow connecting manual Trigger, langchain.embeddings Open Ai, sticky Note",
+      "relativePath": "PDF_and_Document_Processing/Chat with PDF docs using AI (quoting sources).txt"
+    },
+    {
+      "templateTitle": "Chat with Postgresql Database",
+      "summary": "Workflow connecting langchain.chat Trigger, langchain.agent, langchain.lm Chat Open Ai",
+      "relativePath": "Database_and_Storage/Chat with Postgresql Database.txt"
+    },
+    {
+      "templateTitle": "ChatGPT Automatic Code Review In Gitlab MR",
+      "summary": "Workflow connecting sticky Note, webhook, code",
+      "relativePath": "Other_Integrations_and_Use_Cases/ChatGPT Automatic Code Review in Gitlab MR.txt"
+    },
+    {
+      "templateTitle": "chrome extension backend with AI",
+      "summary": "Workflow connecting webhook, langchain.open Ai, respond To Webhook",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Analyze tradingview.com charts with Chrome extension, N8N and OpenAI.txt"
+    },
+    {
+      "templateTitle": "Classify Lemlist Replies Using OpenAI And Automate Reply Handling",
+      "summary": "Workflow connecting markdown, lemlist Trigger, sticky Note",
+      "relativePath": "Gmail_and_Email_Automation/Classify lemlist replies using OpenAI and automate reply handling.txt"
+    },
+    {
+      "templateTitle": "Classify New Bugs In Linear With OpenAI S GPT 4 And Move Them To The Right Team",
+      "summary": "Workflow connecting linear Trigger, filter, sticky Note",
+      "relativePath": "Other_Integrations_and_Use_Cases/Classify new bugs in Linear with OpenAI_s GPT-4 and move them to the right team.txt"
+    },
+    {
+      "templateTitle": "Complete Youtube",
+      "summary": "Workflow connecting langchain.agent, langchain.chat Trigger, langchain.tool Workflow",
+      "relativePath": "OpenAI_and_LLMs/AI Youtube Trend Finder Based On Niche.txt"
+    },
+    {
+      "templateTitle": "Compose Reply Draft In Gmail With OpenAI Assistant",
+      "summary": "Workflow connecting code, http Request, gmail",
+      "relativePath": "Gmail_and_Email_Automation/Compose reply draft in Gmail with OpenAI Assistant.txt"
+    },
+    {
+      "templateTitle": "Contact Form Text Classifier for eCommerce",
+      "summary": "Workflow connecting form Trigger, langchain.text Classifier, langchain.lm Chat Open Ai",
+      "relativePath": "Gmail_and_Email_Automation/Modular & Customizable AI-Powered Email Routing_ Text Classifier for eCommerce.txt"
+    },
+    {
+      "templateTitle": "Content to 9:16 Aspect Image Generator v1",
+      "summary": "Workflow connecting manual Trigger, sticky Note, set",
+      "relativePath": "OpenAI_and_LLMs/Generate 9_16 Images from Content and Brand Guidelines.txt"
+    },
+    {
+      "templateTitle": "Conversational Interviews With AI Agents And N8n Forms",
+      "summary": "Workflow connecting if, set, langchain.memory Manager",
+      "relativePath": "Forms_and_Surveys/Conversational Interviews with AI Agents and n8n Forms.txt"
+    },
+    {
+      "templateTitle": "Convert URL HTML To Markdown Format And Get Page Links",
+      "summary": "Workflow connecting manual Trigger, wait, sticky Note",
+      "relativePath": "PDF_and_Document_Processing/Convert URL HTML to Markdown Format and Get Page Links.txt"
+    },
+    {
+      "templateTitle": "Create A Branded AI Powered Website Chatbot",
+      "summary": "Workflow connecting langchain.memory Buffer Window, respond To Webhook, langchain.lm Chat Open Ai",
+      "relativePath": "OpenAI_and_LLMs/Create a Branded AI-Powered Website Chatbot.txt"
+    },
+    {
+      "templateTitle": "Create Dynamic Twitter Profile Banner",
+      "summary": "Workflow connecting manual Trigger, http Request, item Lists",
+      "relativePath": "Instagram_Twitter_Social_Media/Create dynamic Twitter profile banner.txt"
+    },
+    {
+      "templateTitle": "Create E Mail Responses With Fastmail And OpenAI",
+      "summary": "Workflow connecting http Request, split Out, email Read Imap",
+      "relativePath": "Gmail_and_Email_Automation/create e-mail responses with fastmail and OpenAI.txt"
+    },
+    {
+      "templateTitle": "Create, update, and get a profile in Humantic AI",
+      "summary": "Workflow connecting manual Trigger, humantic Ai, http Request",
+      "relativePath": "Other_Integrations_and_Use_Cases/Create, update, and get a profile in Humantic AI.txt"
+    },
+    {
+      "templateTitle": "Creating A AI Slack Bot With Google Gemini",
+      "summary": "Workflow connecting sticky Note, langchain.lm Chat Google Gemini, langchain.memory Buffer Window",
+      "relativePath": "Slack/Creating a AI Slack Bot with Google Gemini.txt"
+    },
+    {
+      "templateTitle": "Customer Insights With Qdrant, Python And Information Extractor",
+      "summary": "Workflow connecting manual Trigger, set, html",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Customer Insights with Qdrant, Python and Information Extractor.txt"
+    },
+    {
+      "templateTitle": "Customer Support Channel And Ticketing System With Slack And Linear",
+      "summary": "Workflow connecting slack, langchain.lm Chat Open Ai, langchain.output Parser Structured",
+      "relativePath": "Slack/Customer Support Channel and Ticketing System with Slack and Linear.txt"
     }
   ]
 } 

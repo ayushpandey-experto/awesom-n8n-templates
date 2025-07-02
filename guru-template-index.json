@@ -1,0 +1,54 @@
+{
+  "guruTemplates": [
+    {
+      "templateTitle": "[1/3 - anomaly detection] [1/2 - KNN classification] Batch upload dataset to Qdrant (crops dataset)",
+      "summary": "Workflow connecting manual Trigger, google Cloud Storage, set",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Vector Database as a Big Data Analysis Tool for AI Agents [1_3 anomaly][1_2 KNN].txt"
+    },
+    {
+      "templateTitle": "[2/2] KNN classifier (lands dataset)",
+      "summary": "Workflow connecting http Request, code, set",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Vector Database as a Big Data Analysis Tool for AI Agents [2_2 KNN] (1).txt"
+    },
+    {
+      "templateTitle": "[2/2] KNN classifier (lands dataset)",
+      "summary": "Workflow connecting http Request, code, set",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Vector Database as a Big Data Analysis Tool for AI Agents [2_2 KNN].txt"
+    },
+    {
+      "templateTitle": "[2/3] Set up medoids (2 types) for anomaly detection (crops dataset)",
+      "summary": "Workflow connecting manual Trigger, http Request, code",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Vector Database as a Big Data Analysis Tool for AI Agents [2_3 - anomaly].txt"
+    },
+    {
+      "templateTitle": "[3/3] Anomaly detection tool (crops dataset)",
+      "summary": "Workflow connecting sticky Note, http Request, code",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Automated Hugging Face Paper Summary Fetching & Categorization Workflow.txt"
+    },
+    {
+      "templateTitle": "[3/3] Anomaly detection tool (crops dataset)",
+      "summary": "Workflow connecting sticky Note, http Request, code",
+      "relativePath": "AI_Research_RAG_and_Data_Analysis/Vector Database as a Big Data Analysis Tool for AI Agents [3_3 - anomaly].txt"
+    },
+    {
+      "templateTitle": "[AI/LangChain] Output Parser 4",
+      "summary": "Workflow connecting manual Trigger, set, langchain.chain Llm",
+      "relativePath": "OpenAI_and_LLMs/Force AI to use a specific output format.txt"
+    },
+    {
+      "templateTitle": "⚡AI Powered YouTube Video Summarization & Analysis",
+      "summary": "Workflow connecting webhook, n8n-nodes-youtube-transcription.youtube Transcripter, split Out",
+      "relativePath": "OpenAI_and_LLMs/⚡AI-Powered YouTube Video Summarization & Analysis.txt"
+    },
+    {
+      "templateTitle": "🐋🤖 DeepSeek AI Agent + Telegram + LONG TERM Memory 🧠",
+      "summary": "Workflow connecting if, telegram, sticky Note",
+      "relativePath": "Telegram/🐋🤖 DeepSeek AI Agent + Telegram + LONG TERM Memory 🧠.txt"
+    },
+    {
+      "templateTitle": "🐋DeepSeek V3 Chat & R1 Reasoning Quick Start",
+      "summary": "Workflow connecting langchain.chat Trigger, langchain.agent, langchain.lm Chat Open Ai",
+      "relativePath": "OpenAI_and_LLMs/🐋DeepSeek V3 Chat & R1 Reasoning Quick Start.txt"
+    }
+  ]
+} 
